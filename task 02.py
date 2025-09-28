@@ -78,5 +78,7 @@ def genetic_algorithm(pop_size=4, generations=10, mutation_rate=0.1):
     print(f"x = {int(best,2)}")
     print(f"f(x) = {fitness(best)}")
 
-# --- Run GA ---
+# Run GA ---
 genetic_algorithm()
+
+# use 10 times mutation 
